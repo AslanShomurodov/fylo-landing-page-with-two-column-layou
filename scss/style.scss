@@ -546,9 +546,12 @@ body {
                         }
 
                         .input-form {
+                            display: flex;
+                            flex-direction: column;
                             width: 100%;
                             max-width: 536px;
                             height: 45px;
+                            margin-top: 20px;
 
                             .input {
                                 padding: 14px 132px 12px 21px;
@@ -699,6 +702,8 @@ body {
                     background-color: #9c8181;
 
                     .footer-1-p1 {
+                        max-width: 347px;
+                        margin: 0 auto;
                         color: #FFF;
                         font-family: Raleway;
                         font-size: 32px;
@@ -708,6 +713,8 @@ body {
                     }
 
                     .footer-1-p2 {
+                        max-width: 400px;
+                        margin: 0 auto;
                         color: #FFF;
                         font-family: Open Sans;
                         font-size: 16px;
@@ -720,6 +727,8 @@ body {
                 }
 
                 .footer-1-input-form {
+                    display: flex;
+                    flex-direction: column;
                     width: 100%;
                     max-width: 480px;
                     height: 112px;
@@ -1015,13 +1024,14 @@ body {
                         background-color: transparent;
 
                         .mein-p1 {
+                            margin: 0 auto;
                             color: #07043B;
                             font-family: Raleway;
                             font-size: 16px;
                             font-style: normal;
                             font-weight: 700;
                             line-height: 24px;
-                            margin: 0 auto;
+                            
                         }
 
                         .mein-p2 {

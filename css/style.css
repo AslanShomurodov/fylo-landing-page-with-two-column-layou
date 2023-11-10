@@ -484,9 +484,12 @@ body .wrapper .contner .main-footer .min-footer .icon-form {
     margin-top: 10px;
   }
   body .wrapper .contner .section .section-p-menu .input-form {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     max-width: 536px;
     height: 45px;
+    margin-top: 20px;
   }
   body .wrapper .contner .section .section-p-menu .input-form .input {
     padding: 14px 132px 12px 21px;
@@ -617,6 +620,8 @@ body .wrapper .contner .main-footer .min-footer .icon-form {
     background-color: #9c8181;
   }
   body .wrapper .footer-1 .footer-1-p-menu .footer-1-p1 {
+    max-width: 347px;
+    margin: 0 auto;
     color: #FFF;
     font-family: Raleway;
     font-size: 32px;
@@ -625,6 +630,8 @@ body .wrapper .contner .main-footer .min-footer .icon-form {
     line-height: 48px;
   }
   body .wrapper .footer-1 .footer-1-p-menu .footer-1-p2 {
+    max-width: 400px;
+    margin: 0 auto;
     color: #FFF;
     font-family: Open Sans;
     font-size: 16px;
@@ -635,6 +642,8 @@ body .wrapper .contner .main-footer .min-footer .icon-form {
     margin-top: 17px;
   }
   body .wrapper .footer-1 .footer-1-input-form {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     max-width: 480px;
     height: 112px;
@@ -891,13 +900,13 @@ body .wrapper .contner .main-footer .min-footer .icon-form {
     background-color: transparent;
   }
   body .wrapper .contner .menu .p-mein .mein-p1 {
+    margin: 0 auto;
     color: #07043B;
     font-family: Raleway;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: 24px;
-    margin: 0 auto;
   }
   body .wrapper .contner .menu .p-mein .mein-p2 {
     margin: 0 auto;
